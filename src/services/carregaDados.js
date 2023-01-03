@@ -1,4 +1,4 @@
-import produtores from '../mocks/Produtores';
+import produtores from '../mocks/produtores';
 import topo from '../mocks/topo';
 
 export function carregaProdutores() {

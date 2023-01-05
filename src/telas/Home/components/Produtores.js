@@ -23,7 +23,11 @@ function Produtores({topo: Topo}) {
     <FlatList
       data={lista}
       renderItem={({item}) => (
-        <Produtor nome={item.nome} imagem={item.imagem} distancia={distancia} />
+        <Produtor
+          nome={item.nome}
+          imagem={item.imagem}
+          distancia={item.distancia}
+        />
       )}
       keyExtractor={({nome}) => nome}
       ListHeaderComponent={TopoLista}

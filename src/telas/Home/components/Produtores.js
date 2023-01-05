@@ -27,6 +27,7 @@ function Produtores({topo: Topo}) {
           nome={item.nome}
           imagem={item.imagem}
           distancia={item.distancia}
+          estrelas={item.estrelas}
         />
       )}
       keyExtractor={({nome}) => nome}
